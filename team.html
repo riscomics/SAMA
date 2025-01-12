@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>New Jersey Laser Restoration Services LLC</title>
+    <style>
+      body {        
+        background-color: darkslategrey;
+        margin: 0;
+        overflow: hidden; 
+        overflow-y: scroll;
+        -ms-overflow-style: none;     
+        font-family: arial;   
+      }
+      body::-webkit-scrollbar {
+            display: none;
+        }
+      a {        
+        text-decoration: none;
+      }
+      .footer {
+        width: 100%;
+        height: 28px;
+        color: aliceblue;
+        background-color: #000000;
+      }
+      .footertext {
+        margin: auto;
+        display: flex; 
+        align-items: center;
+        font-size: 12px; 
+        width: 888px;
+        height: 100%;
+      }      
+      .header {
+        width: 100%;
+        height: 49px;
+        display: flex;
+        flex-direction: row;        
+        justify-content: center;        
+        background-color: rgb(28, 49, 49);
+      }
+      .leftheader {
+        display: flex;
+        color: aliceblue;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: arial;
+        width: 490px;
+        align-self: center;
+        justify-content: center; 
+        margin-right: 149px;
+      }
+      .rightheader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;        
+        width: 168px;        
+        margin-right: 20px;  
+      }
+      .headerbuttons {
+        color: aliceblue;
+        background-color: darkslategray;
+        border: none;
+        font-size: 17px;
+        font-weight: bold;
+      }
+      .headerbuttons:hover {
+        cursor: pointer;
+        background-color: rgb(30, 51, 51);
+      }      
+      .subheader {
+        width: 100%;
+        height: 311px; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        margin-bottom: 12px;
+      } 
+      .intro-text {
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        font-size: 21px;
+        font-weight: bold;
+        background-color: rgb(145, 129, 250);
+        border-radius: 28px; 
+        text-align: center;
+        justify-content: center;
+        z-index: 5;
+        position: absolute;
+        height: 68px;
+        width: 250px;
+        left: -15px;
+        top: 228px;
+      }
+      .intro {
+        position: relative; 
+      }
+      .intro img {                     
+        height: 315px;   
+        width: 100%px;
+        object-fit: cover;
+      }
+      .youtube {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+      }
+      .splash {
+        display: flex;
+        flex-direction: column; 
+        background-color: slategrey;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;        
+        height: 1888px;
+        width: 888px; 
+      }
+      .splash-text {
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        font-size: 16px;
+        background-color: darkslategray;
+        border-radius: 12px;  
+        justify-content: space-between;
+        line-height: 26px;
+        width: 700px;
+        height: 149px;
+        padding: 15px;
+      }
+      .splash-img1 {
+        display: flex;    
+        width: 500px;
+        margin-top: 10px;
+        margin-right: 228px;
+        position: relative;
+      }
+      .splash-img1 img {
+        width: 100%;
+        object-fit: cover;
+      }
+      .img1-text {
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        font-size: 16px;
+        background-color: rgb(145, 129, 250);
+        border-radius: 28px;  
+        justify-content: space-between;
+        line-height: 26px;
+        width: 228px;
+        height: 78px;
+        padding: 15px;
+        right: -220px;
+        top: 50px;
+      }
+      .splash-img2 {
+        display: flex;
+        width: 550px;
+        margin-top: 10px;
+        margin-left: 165px;
+        position: relative;
+      }
+      .splash-img2 img {
+        width: 100%;
+        object-fit: cover;
+      }
+      .img2-text {
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        font-size: 16px;
+        background-color: rgb(145, 129, 250);
+        border-radius: 28px;  
+        justify-content: space-between;
+        line-height: 26px;
+        width: 149px;
+        height: 149px;
+        padding: 15px;
+        left: -170px;
+        top: 88px;
+      }
+      .splash-img3 {
+        display: flex;
+        width: 410px;
+        margin-top: 20px;
+        margin-right: 249px;
+        margin-bottom: 20px;
+        position: relative;
+      }
+      .splash-img3 img {
+        width: 100%;
+        object-fit: cover;
+      }
+      .img3-text {
+        position: absolute;
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        font-size: 16px;
+        background-color: rgb(145, 129, 250);
+        border-radius: 28px;  
+        justify-content: space-between;
+        line-height: 26px;
+        width: 188px;
+        height: 107px;
+        padding: 15px;
+        right: -210px;
+        top: 50px;
+      }
+      .splash-text2 {
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        font-size: 28px;
+        text-align: center;
+        background-color: darkslategray;
+        border-radius: 12px;  
+        justify-content: space-between;
+        line-height: 26px;
+        width: 678px;
+        height: 28px;
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <div class="header">
+      <div class="leftheader">
+        New Jersey Laser Restoration Services
+      </div>
+      <div class="rightheader">
+        <button class="headerbuttons">Team</button>
+        <button class="headerbuttons">Get a Quote</button>
+      </div>
+    </div>
+
+    <div class="splash">
+      <div class="subheader">
+        <div class="intro">
+          <img src="Elements/1.jpg">
+          <div class="intro-text">
+            Servicing North & Central New Jersey
+          </div>        
+        </div>
+      </div>
+      <div class="splash-text">
+        <div>
+          Welcome to our Laser Restoration services! We specialize in eco-friendly and 
+        precise cleaning solutions for restoring surfaces without damaging the material underneath. 
+        </div> 
+        <div>
+          Using cutting-edge laser technology, we safely remove rust, grime, paint, and contaminants 
+        from metal, stone, wood, and more, with minimal waste and no harsh chemicals. Perfect for 
+        industrial cleaning, and delicate projects. 
+        </div>
+      </div>
+      <div class="splash-img1">
+        <img src="Elements/2a.jpg">
+        <div class="img1-text">
+          Our non-invasive method brings your surfaces back to life with precision and care.
+        </div>
+      </div>
+      <div class="splash-img2">
+        <img src="Elements/6a.jpg">
+        <div class="img2-text">
+          Our laser machine can remove graffiti without repainting or messy sand-blasting.
+        </div>
+      </div>
+      <div class="splash-img3">
+        <img src="Elements/8a.jpg">
+        <div class="img3-text">
+          Quick and eco-friendly paint removal for vehicles. 
+          Restore surfaces without chemicals or abrasives.
+        </div>
+      </div>
+      <div class="youtube">
+        <iframe width="713.5" height="315" 
+          src="https://www.youtube.com/embed/pn86klcwcr8?si=qgmSUmkaTJFGITTh" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+      </div>
+      <div class="splash-text2">
+        <div>
+          Get in touch with our team and receive a quote today!
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footertext">Copyright© 2024 by Jersey Laser Restoration Services LLC</div>
+    </div>
+  </body>
+</html>
